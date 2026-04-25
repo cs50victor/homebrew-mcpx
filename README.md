@@ -20,7 +20,7 @@ mcpx <server>/<tool> '<json>' # Call tool with args
 
 ## Current Version
 
-v1.0.2
+v1.0.3
 
 ## Updating
 
