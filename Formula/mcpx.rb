@@ -2,27 +2,27 @@ class Mcpx < Formula
   desc "Lightweight CLI for interacting with MCP (Model Context Protocol) servers"
   homepage "https://github.com/cs50victor/mcpx"
   license "MIT"
-  version "1.2.1"
+  version "1.3.0"
 
   on_macos do
     on_arm do
       url "https://github.com/cs50victor/mcpx/releases/download/v#{version}/mcpx-darwin-arm64"
-      sha256 "2f2a365414f862166854e48582e88831a869c1a0c19e2c6d59b48c72c7a3ba9a" # mcpx-darwin-arm64
+      sha256 "7064baea7b21c166c5b15f89e1cbdddf1d078317af452bf59af4f399951bc97a" # mcpx-darwin-arm64
     end
     on_intel do
       url "https://github.com/cs50victor/mcpx/releases/download/v#{version}/mcpx-darwin-x64"
-      sha256 "1d0b6981b4fb0deb7de5f2160faeefbcab61e172e5f473e995651a9a87c8dcc5" # mcpx-darwin-x64
+      sha256 "8da6aabf63ddd3f2179441e7f16702a2e80c15da56a9a4065a2b777c56c482d7" # mcpx-darwin-x64
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/cs50victor/mcpx/releases/download/v#{version}/mcpx-linux-arm64"
-      sha256 "425fbe5eaec30ef37d721c30f45d459f9db84d0fec12d9e8e6ec4c53c8ef91cf" # mcpx-linux-arm64
+      sha256 "ef967ffabab6c0cc0a08d8ef9fbd86d596fb2e79f8ae3c6c23fd51449751b4dc" # mcpx-linux-arm64
     end
     on_intel do
       url "https://github.com/cs50victor/mcpx/releases/download/v#{version}/mcpx-linux-x64"
-      sha256 "8b5b0477ec6aa47ee26de07e58f944ea3488e3d1e531a9957a243626d95a73c8" # mcpx-linux-x64
+      sha256 "e68c8aeca2aace0c082393e1573452fdcf2f199e743755a5a7884cd06b41a74a" # mcpx-linux-x64
     end
   end
 
